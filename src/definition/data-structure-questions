@@ -1,21 +1,33 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A.Data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.
 What are the various operations that can be performed on different Data Structures?
+add elements, remove , insert , search elements
 List out the areas in which data structures are applied extensively?
 what is an Array?
+is a list of variables of the same type that are accessed through a common name.
 what is the difference between the Array and ArrayList?
+Array is a fixed length data structure while Array List is a variable length Collection class
 what is LinkedList?
+list is a dynamic data structure space acquire only when need
 How is an Array different from Linked List?
 what is queue?
+is  a Data structure, in which insertion is done at one end, while deletion is performed at the other end.
 what is stack?
+also called a last-in first-out (LIFO) system, is a linear
 what is FIFO and LIFO?
+fifo: first in first out
+lifo:last in first out
 what is the order of complexity?
+time of execution and space of storage
 what is the best case to search an element from an array?
+using loops
 what is the worst case to search an element from an array?
 what is tree in data structure?
+is a nonlinear data structure  made up of nodes or vertices and edges
 what is graph in data structure?
+A set of items connected by edges. Each item is called a vertex or node.
 what is the difference between the HashTable and HashMap?
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
