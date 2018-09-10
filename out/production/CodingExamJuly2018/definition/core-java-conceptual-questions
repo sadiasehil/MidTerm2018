@@ -4,48 +4,105 @@ What is programing language?
  is a special language programmers use to develop software programs, scripts, or other sets of instructions for computers to execute.
 A.
 What jdk contains or composed of and define each components?
+1.Development Tools:Tools and utilities that will help you develop, execute, debug, and document programs written in the Java programming language.
+2.Runtime Environment: An implementation of the Java Runtime Environment (JRE) for use by the JDK. The JRE includes a Java Virtual Machine (JVM™), class libraries, and other files that support the execution of programs written in the Java programming language.
+3.Additional Libraries:Additional class libraries and support files required by the development tools.
 What is IDE?
+is a software application that provides comprehensive facilities to computer programmers for software development,An IDE normally consists of a source code editor, build automation tools, and a debugger.
 What are the IDEs available in the market to support java?
+IntelliJ IDEA, NetBeans ,Eclipse
 Explain the entire java life cycle.
+There are three main stages in the life cycle of a java program. They are:
+Editing the program
+Compiling the source code
+Executing the byte code
+
 what is class?
+A class is the template or blueprint from which objects are made.
 What is object?
+any entity that has state and behavior is known as an object.
+An object is an instance of class
+An object can be variable or method
 What is the entry point of an application?
+is a function named main
 Why main is static?
+so it can be directly invoked via the class. Similarly, without any need  to make objects of this method .
 Which class is the superclass of all classes?
+java.lang.object is a superclass of all class.
 What is difference between path and classpath variables?
+1.PATH is the environment variable where we specify the locations of binaries.
+Example: We add bin directory path of JDK or JRE, so that any binaries under the directory can be accessed directly without specifying absolute path.
+2.CLASSPATH is the path for Java application where the classes you compiled will be available.
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+methods of a Java interface are implicitly abstract and cannot have implementations.
+A Java abstract class can have instance methods
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?//
 what is Access Specifier?
+An access specifier is a defining code element that can determine which elements of a program are allowed to access a specific variable or other piece of data.
 What is OOP ? Define each feature of java OOP.
+(OOP): is the dominant programming paradigm these days, having replaced the  procedural programming techniques
+features:
+1.Abstraction:  means displaying only essential information and hiding the details.
+2.Encapsulation: is about how to hide data
+3.Inheritance:is the process by which one object acquires the properties of another object.
+4.Polymorphism: Polymorphism is the ability of an object to take on many forms.
 What is Java Package and which package is imported by default?
+java.lang package is imported by default
+java.lang package is imported by default
 What is API? Name list of API that you have used so far.
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
 Does java support multiple inheritance, explain why or why not?
+no because of ambiguity error.
 What is method overloading and when it happens?
+Method overloading happens with methods with the same name but different signature. Method overriding happens with methods with the same name and same signature between inherited classes.
 Explain exceptions in java and how to handle it.
+An exception (or exceptional event) is a problem that arises during the execution of a program
+java exception handling is managed via five keywords: try, catch, throw, throws, and finally
 What is static keyword in java? How it has been used in variables and methods ?
+static is a non-access modifier in Java , To create a static member(block,variable,method,nested class), precede its declaration with the keyword static.
 What is final and how it has been used variables and methods?
+final is a non-access modifier
+1.When a variable is declared with final keyword, its value can’t be modified
+2.When a class is declared with final keyword, it is called a final class. A final class cannot be extended(inherited).
+3.When a method is declared with final keyword, it is called a final method. A final method cannot be overridden.
 What is final, finally and finalize?
 What is a constructor ?
+is a special type of subroutine called to create an object. It prepares the new object for use
 Can we have multiple constructors in a class?
+A class can have multiple constructors, as long as their signature (the parameters they take) are not the same.
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
+ is a reference variable in Java that refers to the current object.
 What is "super" keyword in java? How many possible way can you use?
+is used to refer the immediate parent class object.
 What is JVM stand for ?
+A Java virtual machine (JVM) is a virtual machine that enables a computer to run Java programs
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?
+is a package file format typically used to aggregate many Java class files and associated metadata and resources (text, images, etc.) into one file for distribution
 What is the difference between JDK and JVM?
+The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE),
 What is the difference between JVM and JRE?
+The JRE is the environment within which the virtual machine runs. JRE is the container, JVM is the content. Java Runtime Environment contains JVM, class libraries, and other supporting files.
 What is compile time and run time?
+The source code must be compiled into machine code in order to become and executable program. This compilation process is referred to as compile time
+A compiled program can be opened and run by a user. When an application is running, it is called runtime.
 What is heap?
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
+String is immutable  ( once created can not be changed )object  .
 What is Singleton class?
+A singleton is a class that allows only a single instance of itself to be created and gives access to that created instance.
 What is Serialization and Deserialization?
+Serialization is a mechanism of converting the state of an object into a byte stream. Deserialization is the reverse process
 when to use transient variable in java?
 Difference between while and do..while loop?
+in while loops, test expression is checked at first but, in do...while loop code is executed at first then the condition is checked
 What is Enum?
+An enum type is a special data type that enables for a variable to be a set of predefined constants.
 What is Iterator?
+an iterator is an object that enables a programmer to traverse a container, particularly lists
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
 What is constructor chaining in Java?
